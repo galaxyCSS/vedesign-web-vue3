@@ -1,0 +1,41 @@
+{
+  "name": "@ve_design/web-vue3",
+  "private": false,
+  "version": "1.0.0",
+  "author": "leic2088@163.com",
+  "description": "VE Design - A Vue.js 3 UI library, @ve_design/web-vue3",
+  "keywords": [
+    "@ve_design/web-vue3"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/galaxyCSS/vedesign-web-vue3"
+  },
+  "type": "module",
+  "main": "./lib/web-vue.umd.js",
+  "module": "./lib/web-vue.js",
+  "exports": {
+    ".": {
+      "import": "./lib/web-vue.js",
+      "require": "./lib/web-vue.umd.js"
+    },
+    "./style.css": "./lib/web-vue.css"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "vue": "^3.5.13"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.2.1",
+    "postcss": "^8.5.3",
+    "postcss-preset-env": "^10.1.5",
+    "vite": "^6.2.0"
+  },
+  "pnpm": {
+    "overrides": {}
+  }
+}
