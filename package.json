@@ -1,11 +1,11 @@
 {
-  "name": "@ve_design/web-vue3",
+  "name": "@vaedesign/web-vue3",
   "private": false,
   "version": "1.0.0",
   "author": "leic2088@163.com",
-  "description": "VE Design - A Vue.js 3 UI library, @ve_design/web-vue3",
+  "description": "VE Design - A Vue.js 3 UI library, @vaedesign/web-vue3",
   "keywords": [
-    "@ve_design/web-vue3"
+    "@vaedesign/web-vue3"
   ],
   "repository": {
     "type": "git",
